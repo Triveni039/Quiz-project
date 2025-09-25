@@ -25,3 +25,20 @@ Users can answer multiple-choice questions, view their scores, and admins can ad
 
 ## 📂 Project Structure
 
+quiz_project/ # Main project folder
+│
+├── quizapp/ # Core app
+│ ├── migrations/
+│ ├── templates/ # HTML templates
+│ │ └── quizapp/
+│ │ ├── quiz_home.html
+│ │ ├── result_home.html
+│ │ └── insert_question.html
+│ ├── forms.py # Django forms
+│ ├── models.py # Question model
+│ ├── views.py # App views
+│ └── urls.py # App routes
+│
+├── db.sqlite3 # Default database
+├── manage.py # Django management file
+└── README.md # Documentation
